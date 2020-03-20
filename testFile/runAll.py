@@ -4,7 +4,7 @@
 # @File    : runAll.py
 # 开始执行接口自动化，项目工程部署完毕后直接运行该文件即可
 import os
-import common.HTMLTestRunnerNew as HTMLTestRunner
+from common import HTMLTestRunnerNew as HTMLTestRunner
 from testFile import getpathInfo
 import unittest
 from testFile import readConfig
